@@ -17,7 +17,7 @@
   modified 8 Sep 2016
   by Colby Newman
 
-  This example code is in the public domain.
+  This example code is in the public domain. Yayyyy!!
 
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
 */
@@ -34,4 +34,8 @@ void loop() {
   delay(1000);                       // wait for a second
   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
   delay(1000);                       // wait for a second
+  const int PWMB = 10; //speed control pin on the motor driver for the left motor
+  const int BIN2 = 9; //control pin 2 on the motor driver for the left motor
+  const int BIN1 = 8; //control pin 1 on the motor driver for the left motor
+  
 }
